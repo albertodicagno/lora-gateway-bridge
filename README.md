@@ -1,10 +1,8 @@
 # LoRa Gateway Bridge - Kafka version
 
-[![Build Status](https://travis-ci.org/brocaar/lora-gateway-bridge.svg?branch=master)](https://travis-ci.org/brocaar/lora-gateway-bridge)
-
 LoRa Gateway Bridge is a service which abstracts the 
 [packet_forwarder UDP protocol](https://github.com/Lora-net/packet_forwarder/blob/master/PROTOCOL.TXT)
-running on most LoRa gateways into JSON over Kafka. It enables you to use a Kafka messaging bus for
+running on most LoRa gateways into JSON - in this version - over Kafka. It enables you to use a Kafka messaging bus for
 receiving data from and sending data to your gateways.
 This project is part of the [LoRa Server](https://github.com/brocaar/loraserver)
 project.
